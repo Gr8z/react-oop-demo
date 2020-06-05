@@ -1,27 +1,13 @@
-import React, { useState } from 'react';
-import JSONInput from 'react-json-editor-ajrm';
-import './App.css';
+import React from 'react'
+import './App.css'
+import Main from './components/Main'
 
 const App = () => {
-  const [request, setRequest] = useState({});
-  const [response, setResponse] = useState({});
-
   return (
     <div className="App">
-      <h1>React OOP Demo</h1>
-      <h3>Request</h3>
-      <JSONInput
-        id='request'
-        placeholder={request}
-      />
-      <h3>Response</h3>
-      <JSONInput
-        id='response'
-        placeholder={response}
-        viewOnly
-      />
+      <Main />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

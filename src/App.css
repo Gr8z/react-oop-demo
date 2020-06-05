@@ -13,11 +13,20 @@ code {
 }
 
 .App {
-  background-color: #282c34;
+  background: #282c34;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px;
   font-size: calc(10px + 1vmin);
   color: white;
+}
+
+table tr {
+  color: white;
+}
+
+.list-group-item {
+  background-color: #282c34 !important;
 }
