@@ -1,5 +1,11 @@
 # React OOP Demo
 
+# Status
+
+Classes: `done`
+Tests: `done`
+Components: `incomplete`
+
 ## Running the code
 
 ```sh
